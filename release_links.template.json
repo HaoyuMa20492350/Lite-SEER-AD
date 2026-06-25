@@ -1,0 +1,6 @@
+{
+  "github_release_url": "https://github.com/<owner>/<repo>/releases/tag/v1.0-paper",
+  "zenodo_doi": "10.5281/zenodo.<record_id>",
+  "hf_model_url": "https://huggingface.co/<owner>/<model-repo>",
+  "hf_dataset_url": "https://huggingface.co/datasets/<owner>/<dataset-repo>"
+}

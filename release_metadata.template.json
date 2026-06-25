@@ -1,0 +1,45 @@
+{
+  "schema": "lite-seer-ad-release-metadata-v1",
+  "release": {
+    "github_release_url": "https://github.com/<owner>/<repo>/releases/tag/v1.0-paper",
+    "zenodo_doi": "10.5281/zenodo.<record_id>",
+    "hf_model_url": "https://huggingface.co/<owner>/<model-repo>",
+    "hf_dataset_url": "https://huggingface.co/datasets/<owner>/<dataset-repo>"
+  },
+  "citation": {
+    "message": "If you use Lite-SEER-AD, please cite the paper package and release.",
+    "title": "Lite-SEER-AD: Label-Free Feature-First Industrial Anomaly Localization with Selective Regional Verification",
+    "version": "1.0-paper",
+    "date_released": "2026-06-21",
+    "repository_code": "https://github.com/<owner>/<repo>",
+    "license": "LicenseRef-All-Rights-Reserved",
+    "authors": [
+      {
+        "family_names": "<family name>",
+        "given_names": "<given name>",
+        "orcid": "<optional orcid url>"
+      }
+    ]
+  },
+  "zenodo": {
+    "title": "Lite-SEER-AD: Label-Free Feature-First Industrial Anomaly Localization with Selective Regional Verification",
+    "upload_type": "software",
+    "description": "Claim-bounded paper package for label-free feature-first industrial anomaly localization, HN-SEV false-positive suppression, and LC-RDS budgeted local repair analysis.",
+    "creators": [
+      {
+        "name": "<family name>, <given name>",
+        "affiliation": "<institution>",
+        "orcid": "<optional orcid url>"
+      }
+    ],
+    "license": "other-closed",
+    "keywords": [
+      "industrial anomaly detection",
+      "label-free threshold selection",
+      "MVTec AD",
+      "VisA",
+      "MPDD"
+    ],
+    "version": "1.0-paper"
+  }
+}

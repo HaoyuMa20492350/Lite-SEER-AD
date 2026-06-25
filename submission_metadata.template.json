@@ -1,0 +1,79 @@
+{
+  "target_journal": {
+    "journal": "Pattern Recognition",
+    "publisher_platform": "Elsevier / ScienceDirect",
+    "article_type": "Full Length Article / Original Research",
+    "template_status": "Elsevier article template selected; manuscript source remains in Markdown until author metadata and final figures are frozen",
+    "required_word_page_limit": "submit as single-column, double-spaced manuscript with numbered pages; Pattern Recognition guide indicates no less than 20 and no more than 35 pages for regular submissions",
+    "supplement_format": "separate supplementary material package with reproducibility tables, FAQ, limitations, and artifact manifest",
+    "guide_source_checked": "https://www.journals.elsevier.com/pattern-recognition"
+  },
+  "authors": {
+    "corresponding_author": {
+      "name": "<name>",
+      "email": "<email>",
+      "affiliation": "<affiliation>"
+    },
+    "author_list": [
+      "<ordered author names>"
+    ],
+    "affiliations": [
+      "<institution, department, city, country>"
+    ],
+    "orcid_ids": [
+      "<optional or required ORCID IDs>"
+    ]
+  },
+  "funding_statement": "<exact funding agency names, grant numbers, and recipient authors, or the journal-required no-funding wording>",
+  "conflict_of_interest_statement": "<exact conflict-of-interest statement, or the journal-required no-conflict wording>",
+  "data_availability_statement": "GitHub Release URL: <github release url>. Zenodo DOI: <zenodo doi>. Hugging Face URL: <hugging face model or dataset url>. The benchmark datasets used in this study are publicly available from their original providers subject to their licenses. Dataset download instructions are provided in DATASETS.md.",
+  "code_availability_statement": "repository URL: <repository url>. The source code, experiment configurations, table regeneration scripts, environment files, Dockerfile, CI workflow, and SHA256 artifact manifest are available under <license>. The exact release commit is <commit sha>.",
+  "reproducibility_statement": "All retained quantitative claims are tied to fixed configs, seeds, threshold policies, prediction arrays, and table-generation scripts. The selection policy uses normal images and synthetic anomalies only; real anomaly labels and masks are reserved for held-out audit. The release manifest reports SHA256 hashes for the reproducibility artifacts.",
+  "ethics_statement": "This study evaluates industrial anomaly detection datasets and does not involve human participants, human tissue, personal data, or animal experiments.",
+  "author_contributions": {
+    "Conceptualization": [
+      "<names>"
+    ],
+    "Methodology": [
+      "<names>"
+    ],
+    "Software": [
+      "<names>"
+    ],
+    "Validation": [
+      "<names>"
+    ],
+    "Formal analysis": [
+      "<names>"
+    ],
+    "Investigation": [
+      "<names>"
+    ],
+    "Data curation": [
+      "<names>"
+    ],
+    "Writing - original draft": [
+      "<names>"
+    ],
+    "Writing - review and editing": [
+      "<names>"
+    ],
+    "Visualization": [
+      "<names>"
+    ],
+    "Supervision": [
+      "<names>"
+    ],
+    "Funding acquisition": [
+      "<names>"
+    ]
+  },
+  "cover_letter": {
+    "editor_salutation": "Dear Editor,",
+    "manuscript_title": "Lite-SEER-AD: Label-Free Feature-First Industrial Anomaly Localization with Selective Regional Verification",
+    "article_type": "<article type>",
+    "journal": "<journal>",
+    "availability_sentence": "All retained claims are backed by reproducible configs, fixed thresholds, prediction manifests, statistical tables, release metadata, and the final public artifact links.",
+    "closing_name": "<corresponding author name>"
+  }
+}

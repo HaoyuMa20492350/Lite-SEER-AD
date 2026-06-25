@@ -1,0 +1,19 @@
+{
+  "title": "Lite-SEER-AD: Label-Free Feature-First Industrial Anomaly Localization with Selective Regional Verification",
+  "upload_type": "software",
+  "description": "Claim-bounded paper package for label-free feature-first industrial anomaly localization, HN-SEV false-positive suppression, and LC-RDS budgeted local repair analysis.",
+  "creators": [
+    {
+      "name": "Lite-SEER-AD Authors"
+    }
+  ],
+  "license": "other-closed",
+  "keywords": [
+    "industrial anomaly detection",
+    "label-free threshold selection",
+    "MVTec AD",
+    "VisA",
+    "MPDD"
+  ],
+  "version": "0.1.0"
+}

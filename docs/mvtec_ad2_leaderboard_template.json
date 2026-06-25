@@ -1,0 +1,20 @@
+{
+  "source_url": "https://benchmark.mvtec.com/leaderboard",
+  "captured_at": "2026-06-13T00:00:00Z",
+  "leaderboard": [
+    {
+      "method": "Lite-SEER-AD",
+      "submission_id": "REPLACE_WITH_SUBMISSION_ID",
+      "image_auroc": 0.0,
+      "pixel_auroc": 0.0,
+      "aupro": 0.0
+    },
+    {
+      "method": "REPLACE_WITH_COMPARATOR",
+      "submission_id": "REPLACE_WITH_COMPARATOR_ID",
+      "image_auroc": 0.0,
+      "pixel_auroc": 0.0,
+      "aupro": 0.0
+    }
+  ]
+}

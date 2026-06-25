@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-06-14",
+  "sources": {
+    "patchcore": {
+      "display_name": "PatchCore-Official",
+      "source_kind": "author_official",
+      "repository": "https://github.com/amazon-science/patchcore-inspection",
+      "commit": "fcaa92f124fb1ad74a7acf56726decd4b27cbcad",
+      "default_branch": "main",
+      "reference_key": "Roth2022PatchCore",
+      "license": "Apache-2.0",
+      "declared_datasets": ["mvtec15"],
+      "entrypoint": "bin/run_patchcore.py",
+      "paper_table_eligible_when_ready": true
+    },
+    "padim": {
+      "display_name": "PaDiM-Anomalib",
+      "source_kind": "maintained_reference",
+      "repository": "https://github.com/open-edge-platform/anomalib",
+      "commit": "d7861047db5308e7081f74dcf586f329c9676868",
+      "default_branch": "main",
+      "reference_key": "Defard2021PaDiM",
+      "license": "Apache-2.0",
+      "declared_datasets": ["mvtec15", "visa"],
+      "entrypoint": "anomalib train --model Padim",
+      "paper_table_eligible_when_ready": true,
+      "note": "No author-official PaDiM repository was found; this is a maintained reference implementation and must be labeled as such."
+    },
+    "simplenet": {
+      "display_name": "SimpleNet-Official",
+      "source_kind": "author_official",
+      "repository": "https://github.com/DonaldRR/SimpleNet",
+      "commit": "351a2b8d4e8cfc944dbccbf9bc6ceda930c6f26b",
+      "default_branch": "main",
+      "reference_key": "Liu2023SimpleNet",
+      "license": "MIT",
+      "declared_datasets": ["mvtec15"],
+      "entrypoint": "run.sh",
+      "paper_table_eligible_when_ready": true
+    },
+    "draem": {
+      "display_name": "DRAEM-Official",
+      "source_kind": "author_official",
+      "repository": "https://github.com/VitjanZ/DRAEM",
+      "commit": "2dbf67397ab5c10a1494e5ae70ab59a25d7c35ef",
+      "default_branch": "main",
+      "reference_key": "Zavrtanik2021DRAEM",
+      "license": "repository_unspecified",
+      "declared_datasets": ["mvtec15"],
+      "entrypoint": "test_DRAEM.py",
+      "paper_table_eligible_when_ready": true
+    },
+    "rd4ad": {
+      "display_name": "RD4AD-Official",
+      "source_kind": "author_official",
+      "repository": "https://github.com/hq-deng/RD4AD",
+      "commit": "6554076872c65f8784f6ece8cfb39ce77e1aee12",
+      "default_branch": "main",
+      "reference_key": "Deng2022RD4AD",
+      "license": "repository_unspecified",
+      "declared_datasets": ["mvtec15"],
+      "entrypoint": "main.py",
+      "paper_table_eligible_when_ready": true
+    },
+    "uniad": {
+      "display_name": "UniAD-Official",
+      "source_kind": "author_official",
+      "repository": "https://github.com/zhiyuanyou/UniAD",
+      "commit": "a5b9d9d20c2aae680fa00fe5088616b611e05f3c",
+      "default_branch": "main",
+      "reference_key": "You2022UniAD",
+      "license": "repository_unspecified",
+      "declared_datasets": ["mvtec15"],
+      "entrypoint": "experiments/MVTec-AD/eval_torch.sh",
+      "paper_table_eligible_when_ready": true
+    },
+    "diffusionad": {
+      "display_name": "DiffusionAD-Official",
+      "source_kind": "author_official",
+      "repository": "https://github.com/HuiZhang0812/DiffusionAD",
+      "commit": "8a64c035bdbce4c438594b30c6a3dea74fea1af6",
+      "default_branch": "main",
+      "reference_key": "Zhang2023DiffusionAD",
+      "license": "MIT",
+      "declared_datasets": ["mvtec15", "visa"],
+      "entrypoint": "eval.py",
+      "paper_table_eligible_when_ready": true
+    },
+    "ddad": {
+      "display_name": "DDAD-Official",
+      "source_kind": "author_official",
+      "repository": "https://github.com/arimousa/DDAD",
+      "commit": "4323a150dd63a40b7ba8249ae3fb5808304e6308",
+      "default_branch": "main",
+      "reference_key": "Mousakhan2023DDAD",
+      "license": "repository_unspecified",
+      "declared_datasets": ["mvtec15", "visa"],
+      "entrypoint": "main.py --detection True",
+      "paper_table_eligible_when_ready": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+schema: lc_rds_budget_v2
+actions:
+  - skip
+  - repair5
+  - repair10
+  - repair25
+  - native_refine
+budgets_ms: [10, 25, 50, 75, 100, 150]
+metrics:
+  - latency_mean_ms
+  - latency_median_ms
+  - latency_p95_ms
+  - latency_p99_ms
+  - nfe
+  - repaired_area_ratio
+  - budget_violation_rate
+  - gain_per_ms
+  - pareto_area
+selection_inputs:
+  - normal_images
+  - deterministic_synthetic_anomalies
+  - synthetic_repair_gain
+  - measured_action_latency
+forbidden_inputs:
+  - real_anomaly_labels
+  - real_anomaly_masks
+release_gate:
+  max_budget_violation_rate: 0.01
+  compare_against:
+    - fixed25
+    - rule_repair
+    - fixed10
+claim_boundary:
+  - claim_budgeted_repair_scheduling
+  - do_not_claim_universal_fastest_against_fixed10

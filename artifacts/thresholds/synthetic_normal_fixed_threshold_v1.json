@@ -1,0 +1,1264 @@
+{
+  "evaluated_run_count": 99,
+  "policies": [
+    {
+      "category": "bracket_black",
+      "dataset": "mpdd",
+      "max_normal_pixel_fpr": 0.004945119222005208,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed13\\selected_runs\\bracket_black_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004945119222005208,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 0.9171123455720349
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed23\\selected_runs\\bracket_black_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004945119222005208,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 0.9171123455720349
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed7\\selected_runs\\bracket_black_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004945119222005208,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 0.9171123455720349
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 0.9171123455720349,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "bracket_brown",
+      "dataset": "mpdd",
+      "max_normal_pixel_fpr": 0.00487518310546875,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed13\\selected_runs\\bracket_brown_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.00487518310546875,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 0.9290775640102847
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed23\\selected_runs\\bracket_brown_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.00487518310546875,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 0.9290775640102847
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed7\\selected_runs\\bracket_brown_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.00487518310546875,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 0.9290775640102847
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 0.9290775640102847,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "bracket_white",
+      "dataset": "mpdd",
+      "max_normal_pixel_fpr": 0.004913330078125,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed13\\selected_runs\\bracket_white_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004913330078125,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 0.9689100951640619
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed23\\selected_runs\\bracket_white_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004913330078125,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 0.9689100951640619
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed7\\selected_runs\\bracket_white_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004913330078125,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 0.9689100951640619
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 0.9689100951640619,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "connector",
+      "dataset": "mpdd",
+      "max_normal_pixel_fpr": 0.004947662353515625,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed13\\selected_runs\\connector_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004947662353515625,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 0.9703486953412948
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed23\\selected_runs\\connector_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004947662353515625,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 0.9703486953412948
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed7\\selected_runs\\connector_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004947662353515625,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 0.9703486953412948
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 0.9703486953412948,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "metal_plate",
+      "dataset": "mpdd",
+      "max_normal_pixel_fpr": 0.004924774169921875,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed13\\selected_runs\\metal_plate_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004924774169921875,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 0.9738891624682231
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed23\\selected_runs\\metal_plate_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004924774169921875,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 0.9738891624682231
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed7\\selected_runs\\metal_plate_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004924774169921875,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 0.9738891624682231
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 0.9738891624682231,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "tubes",
+      "dataset": "mpdd",
+      "max_normal_pixel_fpr": 0.0048338572184244795,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed13\\selected_runs\\tubes_highres256_heldout",
+          "normal_pixel_fpr": 0.0048338572184244795,
+          "selected_candidate": "highres256",
+          "split_seed": "seed13",
+          "threshold": 39.57757879945781
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed23\\selected_runs\\tubes_highres256_heldout",
+          "normal_pixel_fpr": 0.0048338572184244795,
+          "selected_candidate": "highres256",
+          "split_seed": "seed23",
+          "threshold": 39.57757879945781
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mpdd\\seed7\\selected_runs\\tubes_highres256_heldout",
+          "normal_pixel_fpr": 0.0048338572184244795,
+          "selected_candidate": "highres256",
+          "split_seed": "seed7",
+          "threshold": 39.57757879945781
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "highres256",
+        "seed23": "highres256",
+        "seed7": "highres256"
+      },
+      "threshold": 39.57757879945781,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "bottle",
+      "dataset": "mvtec15",
+      "max_normal_pixel_fpr": 0.002845128377278646,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed13\\selected_runs\\bottle_highres256_heldout",
+          "normal_pixel_fpr": 0.002845128377278646,
+          "selected_candidate": "highres256",
+          "split_seed": "seed13",
+          "threshold": 26.941966563244826
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed23\\selected_runs\\bottle_highres256_heldout",
+          "normal_pixel_fpr": 0.002845128377278646,
+          "selected_candidate": "highres256",
+          "split_seed": "seed23",
+          "threshold": 26.941966563244826
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed7\\selected_runs\\bottle_highres256_heldout",
+          "normal_pixel_fpr": 0.002845128377278646,
+          "selected_candidate": "highres256",
+          "split_seed": "seed7",
+          "threshold": 26.941966563244826
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "highres256",
+        "seed23": "highres256",
+        "seed7": "highres256"
+      },
+      "threshold": 26.941966563244826,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "cable",
+      "dataset": "mvtec15",
+      "max_normal_pixel_fpr": 0.004876708984375,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed13\\selected_runs\\cable_padim_high50_heldout",
+          "normal_pixel_fpr": 0.004876708984375,
+          "selected_candidate": "padim_high50",
+          "split_seed": "seed13",
+          "threshold": 0.904269278049469
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed23\\selected_runs\\cable_padim_high50_heldout",
+          "normal_pixel_fpr": 0.004876708984375,
+          "selected_candidate": "padim_high50",
+          "split_seed": "seed23",
+          "threshold": 0.904269278049469
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed7\\selected_runs\\cable_padim_high50_heldout",
+          "normal_pixel_fpr": 0.004876708984375,
+          "selected_candidate": "padim_high50",
+          "split_seed": "seed7",
+          "threshold": 0.904269278049469
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "padim_high50",
+        "seed23": "padim_high50",
+        "seed7": "padim_high50"
+      },
+      "threshold": 0.904269278049469,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "capsule",
+      "dataset": "mvtec15",
+      "max_normal_pixel_fpr": 0.002565765380859375,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed13\\selected_runs\\capsule_post_highres_gaussian3_heldout",
+          "normal_pixel_fpr": 0.002565765380859375,
+          "selected_candidate": "post_highres_gaussian3",
+          "split_seed": "seed13",
+          "threshold": 28.285781755060718
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed23\\selected_runs\\capsule_post_highres_gaussian3_heldout",
+          "normal_pixel_fpr": 0.002565765380859375,
+          "selected_candidate": "post_highres_gaussian3",
+          "split_seed": "seed23",
+          "threshold": 28.285781755060718
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed7\\selected_runs\\capsule_post_highres_gaussian3_heldout",
+          "normal_pixel_fpr": 0.002565765380859375,
+          "selected_candidate": "post_highres_gaussian3",
+          "split_seed": "seed7",
+          "threshold": 28.285781755060718
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "post_highres_gaussian3",
+        "seed23": "post_highres_gaussian3",
+        "seed7": "post_highres_gaussian3"
+      },
+      "threshold": 28.285781755060718,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "carpet",
+      "dataset": "mvtec15",
+      "max_normal_pixel_fpr": 0.001857757568359375,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed13\\selected_runs\\carpet_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.001857757568359375,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 1.0468411120077887
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed23\\selected_runs\\carpet_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.001857757568359375,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 1.0468411120077887
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed7\\selected_runs\\carpet_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.001857757568359375,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 1.0468411120077887
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 1.0468411120077887,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "grid",
+      "dataset": "mvtec15",
+      "max_normal_pixel_fpr": 0.004968007405598958,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed13\\selected_runs\\grid_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004968007405598958,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 0.9698784351348877
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed23\\selected_runs\\grid_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004968007405598958,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 0.9698784351348877
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed7\\selected_runs\\grid_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004968007405598958,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 0.9698784351348877
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 0.9698784351348877,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "hazelnut",
+      "dataset": "mvtec15",
+      "max_normal_pixel_fpr": 0.0049407958984375,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed13\\selected_runs\\hazelnut_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.0049407958984375,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 0.9887829422950745
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed23\\selected_runs\\hazelnut_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.0049407958984375,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 0.9887829422950745
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed7\\selected_runs\\hazelnut_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.0049407958984375,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 0.9887829422950745
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 0.9887829422950745,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "leather",
+      "dataset": "mvtec15",
+      "max_normal_pixel_fpr": 5.054473876953125e-05,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed13\\selected_runs\\leather_highres256_heldout",
+          "normal_pixel_fpr": 5.054473876953125e-05,
+          "selected_candidate": "highres256",
+          "split_seed": "seed13",
+          "threshold": 29.829638942835913
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed23\\selected_runs\\leather_highres256_heldout",
+          "normal_pixel_fpr": 5.054473876953125e-05,
+          "selected_candidate": "highres256",
+          "split_seed": "seed23",
+          "threshold": 29.829638942835913
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed7\\selected_runs\\leather_highres256_heldout",
+          "normal_pixel_fpr": 5.054473876953125e-05,
+          "selected_candidate": "highres256",
+          "split_seed": "seed7",
+          "threshold": 29.829638942835913
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "highres256",
+        "seed23": "highres256",
+        "seed7": "highres256"
+      },
+      "threshold": 29.829638942835913,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "metal_nut",
+      "dataset": "mvtec15",
+      "max_normal_pixel_fpr": 0.004866282145182292,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed13\\selected_runs\\metal_nut_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004866282145182292,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 0.9520228788162003
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed23\\selected_runs\\metal_nut_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004866282145182292,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 0.9520228788162003
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed7\\selected_runs\\metal_nut_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004866282145182292,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 0.9520228788162003
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 0.9520228788162003,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "pill",
+      "dataset": "mvtec15",
+      "max_normal_pixel_fpr": 0.0026753743489583335,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed13\\selected_runs\\pill_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.0026753743489583335,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 1.0258034740242068
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed23\\selected_runs\\pill_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.0026753743489583335,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 1.0258034740242068
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed7\\selected_runs\\pill_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.0026753743489583335,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 1.0258034740242068
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 1.0258034740242068,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "screw",
+      "dataset": "mvtec15",
+      "max_normal_pixel_fpr": 0.001535797119140625,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed13\\selected_runs\\screw_padim_high50_heldout",
+          "normal_pixel_fpr": 0.001535797119140625,
+          "selected_candidate": "padim_high50",
+          "split_seed": "seed13",
+          "threshold": 1.0136244297027588
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed23\\selected_runs\\screw_padim_high50_heldout",
+          "normal_pixel_fpr": 0.001535797119140625,
+          "selected_candidate": "padim_high50",
+          "split_seed": "seed23",
+          "threshold": 1.0136244297027588
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed7\\selected_runs\\screw_padim_high50_heldout",
+          "normal_pixel_fpr": 0.001535797119140625,
+          "selected_candidate": "padim_high50",
+          "split_seed": "seed7",
+          "threshold": 1.0136244297027588
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "padim_high50",
+        "seed23": "padim_high50",
+        "seed7": "padim_high50"
+      },
+      "threshold": 1.0136244297027588,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "tile",
+      "dataset": "mvtec15",
+      "max_normal_pixel_fpr": 0.004828135172526042,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed13\\selected_runs\\tile_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004828135172526042,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 0.9259097531299563
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed23\\selected_runs\\tile_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004828135172526042,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 0.9259097531299563
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed7\\selected_runs\\tile_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004828135172526042,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 0.9259097531299563
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 0.9259097531299563,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "toothbrush",
+      "dataset": "mvtec15",
+      "max_normal_pixel_fpr": 0.00260162353515625,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed13\\selected_runs\\toothbrush_post_highres_gaussian3_heldout",
+          "normal_pixel_fpr": 0.00260162353515625,
+          "selected_candidate": "post_highres_gaussian3",
+          "split_seed": "seed13",
+          "threshold": 28.826930758425483
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed23\\selected_runs\\toothbrush_post_highres_gaussian3_heldout",
+          "normal_pixel_fpr": 0.00260162353515625,
+          "selected_candidate": "post_highres_gaussian3",
+          "split_seed": "seed23",
+          "threshold": 28.826930758425483
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed7\\selected_runs\\toothbrush_post_highres_gaussian3_heldout",
+          "normal_pixel_fpr": 0.00260162353515625,
+          "selected_candidate": "post_highres_gaussian3",
+          "split_seed": "seed7",
+          "threshold": 28.826930758425483
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "post_highres_gaussian3",
+        "seed23": "post_highres_gaussian3",
+        "seed7": "post_highres_gaussian3"
+      },
+      "threshold": 28.826930758425483,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "transistor",
+      "dataset": "mvtec15",
+      "max_normal_pixel_fpr": 0.0022533416748046877,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed13\\selected_runs\\transistor_padim_high50_heldout",
+          "normal_pixel_fpr": 0.0022533416748046877,
+          "selected_candidate": "padim_high50",
+          "split_seed": "seed13",
+          "threshold": 0.9690853178821426
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed23\\selected_runs\\transistor_padim_high50_heldout",
+          "normal_pixel_fpr": 0.0022533416748046877,
+          "selected_candidate": "padim_high50",
+          "split_seed": "seed23",
+          "threshold": 0.9690853178821426
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed7\\selected_runs\\transistor_padim_high50_heldout",
+          "normal_pixel_fpr": 0.0022533416748046877,
+          "selected_candidate": "padim_high50",
+          "split_seed": "seed7",
+          "threshold": 0.9690853178821426
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "padim_high50",
+        "seed23": "padim_high50",
+        "seed7": "padim_high50"
+      },
+      "threshold": 0.9690853178821426,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "wood",
+      "dataset": "mvtec15",
+      "max_normal_pixel_fpr": 0.0008214314778645834,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed13\\selected_runs\\wood_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.0008214314778645834,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 1.2291048765182495
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed23\\selected_runs\\wood_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.0008214314778645834,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 1.2291048765182495
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed7\\selected_runs\\wood_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.0008214314778645834,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 1.2291048765182495
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 1.2291048765182495,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "zipper",
+      "dataset": "mvtec15",
+      "max_normal_pixel_fpr": 0.0006049474080403646,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed13\\selected_runs\\zipper_highres256_heldout",
+          "normal_pixel_fpr": 0.0006049474080403646,
+          "selected_candidate": "highres256",
+          "split_seed": "seed13",
+          "threshold": 28.129299002620826
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed23\\selected_runs\\zipper_highres256_heldout",
+          "normal_pixel_fpr": 0.0006049474080403646,
+          "selected_candidate": "highres256",
+          "split_seed": "seed23",
+          "threshold": 28.129299002620826
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_mvtec15\\seed7\\selected_runs\\zipper_highres256_heldout",
+          "normal_pixel_fpr": 0.0006049474080403646,
+          "selected_candidate": "highres256",
+          "split_seed": "seed7",
+          "threshold": 28.129299002620826
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "highres256",
+        "seed23": "highres256",
+        "seed7": "highres256"
+      },
+      "threshold": 28.129299002620826,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "candle",
+      "dataset": "visa",
+      "max_normal_pixel_fpr": 0.00013605753580729166,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed13\\selected_runs\\candle_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.00013605753580729166,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 1.6466988322207203
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed23\\selected_runs\\candle_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.00013605753580729166,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 1.6466988322207203
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed7\\selected_runs\\candle_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.00013605753580729166,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 1.6466988322207203
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 1.6466988322207203,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "capsules",
+      "dataset": "visa",
+      "max_normal_pixel_fpr": 0.0048758188883463545,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed13\\selected_runs\\capsules_highres256_heldout",
+          "normal_pixel_fpr": 0.0048758188883463545,
+          "selected_candidate": "highres256",
+          "split_seed": "seed13",
+          "threshold": 35.548614501953125
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed23\\selected_runs\\capsules_highres256_heldout",
+          "normal_pixel_fpr": 0.0048758188883463545,
+          "selected_candidate": "highres256",
+          "split_seed": "seed23",
+          "threshold": 35.548614501953125
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed7\\selected_runs\\capsules_highres256_heldout",
+          "normal_pixel_fpr": 0.0048758188883463545,
+          "selected_candidate": "highres256",
+          "split_seed": "seed7",
+          "threshold": 35.548614501953125
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "highres256",
+        "seed23": "highres256",
+        "seed7": "highres256"
+      },
+      "threshold": 35.548614501953125,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "cashew",
+      "dataset": "visa",
+      "max_normal_pixel_fpr": 1.9073486328125e-05,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed13\\selected_runs\\cashew_high_pixel70_heldout",
+          "normal_pixel_fpr": 1.9073486328125e-05,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 1.631439340947368
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed23\\selected_runs\\cashew_high_pixel70_heldout",
+          "normal_pixel_fpr": 1.9073486328125e-05,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 1.631439340947368
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed7\\selected_runs\\cashew_high_pixel70_heldout",
+          "normal_pixel_fpr": 1.9073486328125e-05,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 1.631439340947368
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 1.631439340947368,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "chewinggum",
+      "dataset": "visa",
+      "max_normal_pixel_fpr": 0.00010172526041666667,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed13\\selected_runs\\chewinggum_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.00010172526041666667,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 1.3764023427912035
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed23\\selected_runs\\chewinggum_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.00010172526041666667,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 1.3764023427912035
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed7\\selected_runs\\chewinggum_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.00010172526041666667,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 1.3764023427912035
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 1.3764023427912035,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "fryum",
+      "dataset": "visa",
+      "max_normal_pixel_fpr": 0.003939310709635417,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed13\\selected_runs\\fryum_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.003939310709635417,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 0.9412974119186401
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed23\\selected_runs\\fryum_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.003939310709635417,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 0.9412974119186401
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed7\\selected_runs\\fryum_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.003939310709635417,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 0.9412974119186401
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 0.9412974119186401,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "macaroni1",
+      "dataset": "visa",
+      "max_normal_pixel_fpr": 0.0008713404337565104,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed13\\selected_runs\\macaroni1_highres256_heldout",
+          "normal_pixel_fpr": 0.0008713404337565104,
+          "selected_candidate": "highres256",
+          "split_seed": "seed13",
+          "threshold": 27.698887008309185
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed23\\selected_runs\\macaroni1_highres256_heldout",
+          "normal_pixel_fpr": 0.0008713404337565104,
+          "selected_candidate": "highres256",
+          "split_seed": "seed23",
+          "threshold": 27.698887008309185
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed7\\selected_runs\\macaroni1_highres256_heldout",
+          "normal_pixel_fpr": 0.0008713404337565104,
+          "selected_candidate": "highres256",
+          "split_seed": "seed7",
+          "threshold": 27.698887008309185
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "highres256",
+        "seed23": "highres256",
+        "seed7": "highres256"
+      },
+      "threshold": 27.698887008309185,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "macaroni2",
+      "dataset": "visa",
+      "max_normal_pixel_fpr": 0.00493621826171875,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed13\\selected_runs\\macaroni2_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.00493621826171875,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 0.9345806045070985
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed23\\selected_runs\\macaroni2_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.00493621826171875,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 0.9345806045070985
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed7\\selected_runs\\macaroni2_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.00493621826171875,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 0.9345806045070985
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 0.9345806045070985,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "pcb1",
+      "dataset": "visa",
+      "max_normal_pixel_fpr": 0.004791259765625,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed13\\selected_runs\\pcb1_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004791259765625,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 0.9025298922482383
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed23\\selected_runs\\pcb1_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004791259765625,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 0.9025298922482383
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed7\\selected_runs\\pcb1_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004791259765625,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 0.9025298922482383
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 0.9025298922482383,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "pcb2",
+      "dataset": "visa",
+      "max_normal_pixel_fpr": 0.004871368408203125,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed13\\selected_runs\\pcb2_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004871368408203125,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 0.9042690368646753
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed23\\selected_runs\\pcb2_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004871368408203125,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 0.9042690368646753
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed7\\selected_runs\\pcb2_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004871368408203125,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 0.9042690368646753
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 0.9042690368646753,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "pcb3",
+      "dataset": "visa",
+      "max_normal_pixel_fpr": 0.004904429117838542,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed13\\selected_runs\\pcb3_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004904429117838542,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 0.9362762546213185
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed23\\selected_runs\\pcb3_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004904429117838542,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 0.9362762546213185
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed7\\selected_runs\\pcb3_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.004904429117838542,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 0.9362762546213185
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 0.9362762546213185,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "pcb4",
+      "dataset": "visa",
+      "max_normal_pixel_fpr": 0.001476287841796875,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed13\\selected_runs\\pcb4_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.001476287841796875,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 1.0323788574630606
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed23\\selected_runs\\pcb4_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.001476287841796875,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 1.0323788574630606
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed7\\selected_runs\\pcb4_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.001476287841796875,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 1.0323788574630606
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 1.0323788574630606,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    },
+    {
+      "category": "pipe_fryum",
+      "dataset": "visa",
+      "max_normal_pixel_fpr": 0.0,
+      "per_seed": [
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed13\\selected_runs\\pipe_fryum_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.0,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed13",
+          "threshold": 1.9506074438807894
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed23\\selected_runs\\pipe_fryum_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.0,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed23",
+          "threshold": 1.9506074438807894
+        },
+        {
+          "heldout_run": "tables\\synthetic_gate_fusion_aggregate_visa\\seed7\\selected_runs\\pipe_fryum_high_pixel70_heldout",
+          "normal_pixel_fpr": 0.0,
+          "selected_candidate": "high_pixel70",
+          "split_seed": "seed7",
+          "threshold": 1.9506074438807894
+        }
+      ],
+      "selected_candidate_by_seed": {
+        "seed13": "high_pixel70",
+        "seed23": "high_pixel70",
+        "seed7": "high_pixel70"
+      },
+      "threshold": 1.9506074438807894,
+      "threshold_protocol": "synthetic_normal_fixed_threshold_v1",
+      "thresholds_are_seed_consistent": true,
+      "uses_real_anomaly_labels": false,
+      "uses_real_anomaly_masks": false
+    }
+  ],
+  "policy_count": 33,
+  "schema": "synthetic_normal_fixed_threshold_v1_bundle",
+  "source_csv": "tables/strict_fixed_threshold/strict_selected_metrics.csv",
+  "uses_real_anomaly_labels": false,
+  "uses_real_anomaly_masks": false
+}

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use Lite-SEER-AD, please cite the paper package and release."
+title: "Lite-SEER-AD: Label-Free Feature-First Industrial Anomaly Localization with Selective Regional Verification"
+version: "0.1.0"
+date-released: "2026-06-21"
+authors:
+  - family-names: "Lite-SEER-AD Authors"
+repository-code: "https://github.com/placeholder/lite-seer-ad"
+license: "LicenseRef-All-Rights-Reserved"

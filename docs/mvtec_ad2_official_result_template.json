@@ -1,0 +1,14 @@
+{
+  "source_url": "https://benchmark.mvtec.com/results/REPLACE_WITH_RESULT_ID",
+  "submission_id": "REPLACE_WITH_SUBMISSION_ID",
+  "evaluated_at": "2026-06-13T00:00:00Z",
+  "results": [
+    {
+      "split": "private_overall",
+      "category": "all",
+      "image_auroc": 0.0,
+      "pixel_auroc": 0.0,
+      "aupro": 0.0
+    }
+  ]
+}

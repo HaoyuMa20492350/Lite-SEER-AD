@@ -1,0 +1,20 @@
+{
+  "baseline_column": "external_aupro",
+  "bca_ci": {
+    "alpha": 0.05,
+    "iterations": 2000,
+    "lower": 0.013502516313206458,
+    "seed": 20260621,
+    "upper": 0.06921903564690676
+  },
+  "delta_definition": "method_minus_baseline",
+  "losses": 3,
+  "mean_delta": 0.0423328746028652,
+  "median_delta": 0.05299748234230017,
+  "method_column": "lite_aupro",
+  "metric": "aupro",
+  "n_pairs": 15,
+  "paired_sign_test_p": 0.03515625,
+  "ties": 0,
+  "wins": 12
+}

@@ -1,0 +1,92 @@
+dataset:
+  name: mpdd
+  root: SEER-AD-dataset/MPDD/official/MPDD/MPDD
+  category: bracket_black
+  categories: all
+  image_size: 256
+  native_resolution_eval: false
+  num_workers: 0
+
+model:
+  diffusion_backbone: small_unet
+  diffusion_timesteps: 100
+  reconstruction_steps: 5
+  local_repair_steps: [10, 25]
+  max_regions: 5
+  base_channels: 32
+
+feature_prior:
+  enabled: true
+  method: patchcore
+  backbone: wide_resnet50_2
+  layers: [layer2, layer3]
+  coreset_ratio: 0.1
+  max_bank_patches: 20000
+  padim_dim: 100
+  batch_size: 8
+  retrieval:
+    enabled: false
+    max_references: 2048
+    patch_size: 64
+    reference_weight: 0.25
+    min_similarity: 0.65
+    spatial_weight: 0.25
+    reference_mode: texture
+
+hn_sev:
+  input_mode: original_recon_residual_proto
+  texture_root: SEER-AD-dataset/DTD/Describable-Textures-Dataset-DTD/images
+  hard_negative_topk: 20
+  prototype_bank_size: 1000
+  patch_size: 64
+  base_channels: 24
+  synthetic_ratio: 0.5
+
+lc_rds:
+  enabled: true
+  actions: [skip, repair-10, repair-25, native-refine]
+  latency_budget_ms: 60.0
+
+evaluation:
+  image_score_mode: top5
+  image_score_source: feature_raw_cosine
+  pixel_heatmap_source: feature_raw
+  metrics: [image_auroc, pixel_auroc, aupro_proxy, pixel_ap, f1, iou, dice]
+  repair_metrics: [psnr, ssim, background_psnr, boundary_consistency]
+  efficiency_metrics: [latency, fps, gpu_memory, params, flops, nfe, repaired_area_ratio, local_region_ratio]
+
+policy_selection:
+  protocol: synthetic_normal_utility
+  seeds: [7, 13, 23]
+  max_normal_images: 16
+  synthetic_variants: 2
+  synthetic_strength_profile: standard
+  synthetic_texture_source: deterministic_random
+  canonical_size: 256
+  candidates: [pixelraw, highres256, post_highres_gaussian3, fixed, padim128r18l123, multiscale]
+  utility:
+    pixel_ap_weight: 0.30
+    aupro_weight: 0.25
+    dice_weight: 0.15
+    pixel_auroc_weight: 0.10
+    image_auroc_weight: 0.05
+    stability_weight: 0.15
+    normal_fpr_penalty: 0.20
+    latency_penalty: 0.02
+    max_latency_ms: 100.0
+
+training:
+  batch_size: 8
+  epochs: 20
+  lr: 0.0002
+
+roi:
+  threshold_quantile: 0.985
+  min_area: 16
+  pad: 8
+
+seed: 7
+device: auto
+
+output:
+  root: runs
